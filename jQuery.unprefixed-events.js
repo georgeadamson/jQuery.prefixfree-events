@@ -25,14 +25,6 @@
     // Eg: Modernizr.prefixed('transition')
     transition: {
 
-      transitionstart: {
-        'WebkitTransition' : 'webkitTransitionStart',
-        'MozTransition'    : 'transitionstart',
-        'OTransition'      : 'oTransitionStart',
-        'msTransition'     : 'MSTransitionStart',
-        'transition'       : 'transitionstart'
-      },
-
       transitionend: {
         'WebkitTransition' : 'webkitTransitionEnd',
         'MozTransition'    : 'transitionend',
@@ -40,6 +32,15 @@
         'msTransition'     : 'MSTransitionEnd',
         'transition'       : 'transitionend'
       }
+
+      // Just wishful thinking :)
+      //transitionstart: {
+      //  'WebkitTransition' : 'webkitTransitionStart',
+      //  'MozTransition'    : 'transitionstart',
+      //  'OTransition'      : 'oTransitionStart',
+      //  'msTransition'     : 'MSTransitionStart',
+      //  'transition'       : 'transitionstart'
+      //}
 
     },
 
@@ -53,6 +54,14 @@
         'animation'       : 'animationstart'
       },
 
+      animationiteration: {
+        'WebkitAnimation' : 'webkitAnimationIteration',
+        'MozAnimation'    : 'animationiteration',
+        'OAnimation'      : 'oAnimationIteration',
+        'msAnimation'     : 'MSAnimationIteration',
+        'animation'       : 'animationiteration'
+      },
+      
       animationend: {
         'WebkitAnimation' : 'webkitAnimationEnd',
         'MozAnimation'    : 'animationend',
