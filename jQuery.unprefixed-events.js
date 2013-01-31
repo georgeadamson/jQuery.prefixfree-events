@@ -1,6 +1,8 @@
 /*!
  * jQuery.unprefixed-events v0.1
  *
+ * https://github.com/georgeadamson/jQuery.unprefixed-events
+ *
  * Copyright (c) George Adamson @GeorgeAdamson
  * Available under the BSD and MIT licenses
  */
