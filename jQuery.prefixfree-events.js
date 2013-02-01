@@ -1,5 +1,5 @@
 /*!
- * jQuery.unprefixed-events v0.1
+ * jQuery.prefixfree-events v0.2
  *
  * https://github.com/georgeadamson/jQuery.unprefixed-events
  *
