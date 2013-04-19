@@ -1,4 +1,4 @@
-jQuery.unprefixed-events
+jQuery.prefixfree-events
 ========================
 
 Vendor-prefix agnostic event binding, eg: $('#myElement').on('transitionend'...)
