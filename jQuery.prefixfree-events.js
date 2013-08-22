@@ -75,7 +75,7 @@
   }
 
 
-  if( !Modernizr || !$ ) return
+  if( !$ || !Modernizr || !Modernizr.prefixed ) return
 
 
   $.each( eventCategories, function( eventCategory, eventsInCategory ){
